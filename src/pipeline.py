@@ -25,7 +25,7 @@ def wfo():
     custom_config = FitnessConfig(
         selected_metrics=['sortino', 'drawdown', 'annual_return', 'var'],
         enable_bottom_percentile_filter=True,
-        bottom_percentile=10.0
+        bottom_percentile=15.0
     )
     
     for _ in range(0, run_count):
